@@ -10,7 +10,7 @@ public class Menu {
        block1: // создали название циклу, благодаря ему мы можем выйти конкретно из этого циукла
        while (true) {
            System.out.println("1 добавить контакт "); //меню
-           System.out.println("2 Список контактов ");
+           System.out.println("2 Показать список контактов ");
            System.out.println("3 Удалить контакт ");
            System.out.println("4 Очистить список ");
            System.out.println("5 Найти контакт ");
@@ -25,8 +25,6 @@ public class Menu {
                }
                case "2" -> {
                    printContact();
-                   
-
                }
                case "3" -> {
                }
